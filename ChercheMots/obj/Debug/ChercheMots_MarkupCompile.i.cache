@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 \\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\App.xaml
-4-2078416107
+5-1973040113
 11281584161
-13-647816534
+14664122396
 13-38814620
-Ihm\PrefixesWindow.xaml;Ihm\AnagrammesWindow.xaml;Ihm\DefinitionsWindow.xaml;Ihm\MainWindow.xaml;
+Ihm\PalindromesWindow.xaml;Ihm\PrefixesWindow.xaml;Ihm\AnagrammesWindow.xaml;Ihm\DefinitionsWindow.xaml;Ihm\MainWindow.xaml;
 
-False
+True
 

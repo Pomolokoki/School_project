@@ -188,5 +188,34 @@ namespace ChercheMots.Metier
             }
             return retour;
         }
+
+        /// <summary>
+        /// Renvoie une liste de mots commançant par le préfixe donné en paramètre
+        /// </summary>
+        /// <param name="prefix">le préfix avec lequel les mots doivent commençer</param>
+        /// <author>Hubert Tom</author>
+        public List<string> Palindromes()
+        {
+            List<string> retour = new List<string>();
+
+
+            foreach (string m in mots.Keys)
+            {
+                if (m.Length < 2) { continue; }
+                bool ok = true;
+                for (int i = 0; i < m.Length; i++)
+                {
+                    if (m[i] != m[m.Length - i - 1])
+                    {
+                        ok = false;
+                        break;
+                    }
+                }
+                if (ok)
+                    retour.Add(m);
+                
+            }
+            return retour;
+        }
     }
 }

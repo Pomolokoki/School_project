@@ -22,3 +22,5 @@
 \\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\obj\Debug\ChercheMots.csproj.CoreCompileInputs.cache
 \\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\obj\Debug\ChercheMots.exe
 \\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\obj\Debug\ChercheMots.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\obj\Debug\Ihm\PalindromesWindow.g.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\Etudiants\INFO-NEV\BUT-INFO-NEV-1\th133840\Cours\QUAL\TP6\ChercheMots\obj\Debug\Ihm\PalindromesWindow.baml

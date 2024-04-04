@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Ihm\PalindromesWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Ihm\PrefixesWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +79,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ihm\PalindromesWindow.xaml.cs">
+      <DependentUpon>PalindromesWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Ihm\PrefixesWindow.xaml.cs">
       <DependentUpon>PrefixesWindow.xaml</DependentUpon>

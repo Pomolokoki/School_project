@@ -13,5 +13,6 @@
         <Button Content="Définitions" Margin="10" Click="Definitions" />
         <!--    author : Hubert Tom -->
         <Button Content="Préfixes" Margin="10" Click="Prefixes" />
+        <Button Content="Palindromes" Margin="10" Click="Palindromes" />
     </StackPanel>
 </Window>

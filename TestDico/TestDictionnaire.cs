@@ -61,5 +61,22 @@ namespace TestDico
             var test3 = test.Anagrammes("ordinateur");
             Assert.Empty(test3);
         }
+
+
+        /// <summary>
+        /// Test for the Dictionnaire Prefixes function
+        /// </summary>
+        /// <author>Hubert Tom</author>
+        [Fact]
+        public void TestPrefixes()
+        {
+            Dictionnaire test = DicoTest;
+            var test1 = test.Prefixes("chi");
+            Assert.Equal("chien", test1[0]);
+            var test2 = test.Prefixes("chien");
+            Assert.Equal(2, test2.Count);
+            var test3 = test.Prefixes("niche");
+            Assert.Single(test3);
+        }
     }
 }

@@ -11,5 +11,7 @@
         
         <Button Content="Anagrammes" Margin="10" Click="Anagrammes"  />
         <Button Content="Définitions" Margin="10" Click="Definitions" />
+        <!--    author : Hubert Tom -->
+        <Button Content="Préfixes" Margin="10" Click="Prefixes" />
     </StackPanel>
 </Window>

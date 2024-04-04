@@ -158,5 +158,35 @@ namespace ChercheMots.Metier
             }
             return retour;
         }
+
+        /// <summary>
+        /// Renvoie une liste de mots commançant par le préfixe donné en paramètre
+        /// </summary>
+        /// <param name="prefix">le préfix avec lequel les mots doivent commençer</param>
+        /// <author>Hubert Tom</author>
+        public List<string> Prefixes(string prefix)
+        {
+            List<string> retour = new List<string>();
+
+
+            foreach (string m in mots.Keys)
+            {
+                if (m.Length >= prefix.Length)
+                {
+                    bool ok = true;
+                    for (int i = 0; i < prefix.Length; i++)
+                    {
+                        if (m[i] != prefix[i])
+                        {
+                            ok = false;
+                            break;
+                        }
+                    }
+                    if (ok)
+                        retour.Add(m);
+                }
+            }
+            return retour;
+        }
     }
 }

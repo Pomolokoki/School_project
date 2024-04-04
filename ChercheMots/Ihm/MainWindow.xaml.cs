@@ -53,5 +53,13 @@ namespace ChercheMots
             Ihm.DefinitionsWindow win = new Ihm.DefinitionsWindow(dico);
             win.Show();
         }
+
+        /// <author>Hubert Tom</author>
+        private void Prefixes(object sender, RoutedEventArgs e)
+        {
+            // ouvre la fenêtre prefixes
+            Ihm.PrefixesWindow win = new Ihm.PrefixesWindow(dico);
+            win.Show();
+        }
     }
 }

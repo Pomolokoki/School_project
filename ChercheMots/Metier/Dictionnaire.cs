@@ -190,9 +190,8 @@ namespace ChercheMots.Metier
         }
 
         /// <summary>
-        /// Renvoie une liste de mots commançant par le préfixe donné en paramètre
+        /// Renvoie la liste des palindromes du ditionnaire
         /// </summary>
-        /// <param name="prefix">le préfix avec lequel les mots doivent commençer</param>
         /// <author>Hubert Tom</author>
         public List<string> Palindromes()
         {

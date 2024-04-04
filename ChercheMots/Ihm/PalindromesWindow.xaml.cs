@@ -17,6 +17,7 @@ namespace ChercheMots.Ihm
     /// <summary>
     /// Logique d'interaction pour PalindromesWindow.xaml
     /// </summary>
+    /// <author> Hubert Tom</author>
     public partial class PalindromesWindow : Window
     {
         private Metier.Dictionnaire dico;

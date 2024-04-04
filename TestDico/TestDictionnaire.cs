@@ -78,5 +78,17 @@ namespace TestDico
             var test3 = test.Prefixes("niche");
             Assert.Single(test3);
         }
+
+        /// <summary>
+        /// Test for the Dictionnaire Prefixes function
+        /// </summary>
+        /// <author>Hubert Tom</author>
+        [Fact]
+        public void TestPalindromes()
+        {
+            Dictionnaire test = DicoTest;
+            var test1 = test.Palindromes();
+            Assert.Empty(test1);
+        }
     }
 }

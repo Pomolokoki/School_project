@@ -281,5 +281,90 @@ namespace ChercheMots.Metier
             }
             return retour;
         }
+
+        /// <summary>
+        /// Fournit la valeur au Scrabble d'un mot
+        /// </summary>
+        /// <param name="mot">le mot dont on souhaite la valeur</param>
+        /// <returns>la valeur du mot</returns>
+        /// <exception cref="MotExistePasException">Si le mot n'existe pas dans le dico</exception>
+        /// <author>Evain Natan</author>
+        public int Scrabble(string mot)
+        {
+            if (!mots.ContainsKey(mot)) throw new MotExistePasException(mot);
+            int value = 0;
+            char[] tab = mot.ToCharArray();
+            foreach (var s in tab)
+            {
+                switch (s)
+                {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'l':
+                    case 'n':
+                    case 'o':
+                    case 'r':
+                    case 's':
+                    case 't':
+                    case 'u':
+                        ++value;
+                        break;
+
+                    case 'd':
+                    case 'g':
+                    case 'm':
+                        value += 2;
+                        break;
+
+                    case 'b':
+                    case 'c':
+                    case 'p':
+                        value += 3;
+                        break;
+
+                    case 'f':
+                    case 'h':
+                    case 'v':
+                        value += 4;
+                        break;
+
+                    case 'j':
+                    case 'q':
+                        value += 8;
+                        break;
+
+                    case 'k':
+                    case 'w':
+                    case 'x':
+                    case 'y':
+                    case 'z':
+                        value += 10;
+                        break;
+                }
+            }
+
+            return value;
+        }
+        /// <summary>
+        /// renvoie valeur alphabétique mot
+        /// </summary>
+        /// <param name="mot">le mot</param>
+        /// <returns></returns>
+        /// <exception cref="MotExistePasException">pas dans dico :( </exception>
+        /// <author>Evain Natan</author>
+        public int ValMot(string mot)
+        {
+            if (!mots.ContainsKey(mot)) throw new MotExistePasException(mot);
+            int value = 0;
+            char[] tab = mot.ToCharArray();
+            foreach (var s in tab)
+            {
+                value += System.Convert.ToInt32(s) - 96;
+            }
+
+            return value;
+        }
+
     }
 }

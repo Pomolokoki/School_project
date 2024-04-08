@@ -96,6 +96,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Ihm\ValeurMotWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ihm\ValeurScrabbleWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Ihm\PrefixesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -107,6 +115,12 @@
     </Compile>
     <Compile Include="Ihm\PalindromesWindow.xaml.cs">
       <DependentUpon>PalindromesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ihm\ValeurMotWindow.xaml.cs">
+      <DependentUpon>ValeurMotWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ihm\ValeurScrabbleWindow.xaml.cs">
+      <DependentUpon>ValeurScrabbleWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Ihm\PrefixesWindow.xaml.cs">
       <DependentUpon>PrefixesWindow.xaml</DependentUpon>

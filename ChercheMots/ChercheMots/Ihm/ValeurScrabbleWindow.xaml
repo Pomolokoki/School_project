@@ -1,0 +1,20 @@
+﻿<Window x:Class="ChercheMots.Ihm.ValeurScrabbleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChercheMots.Ihm"
+        mc:Ignorable="d"
+        SizeToContent="Height"
+        FontSize="20"
+        Title="Valeur" Height="300" Width="300">
+    <StackPanel Margin="10">
+        <Label Content="Mot :" />
+        <TextBox x:Name="mot" Margin="10" />
+        <Button Content="Calculer" Margin="10" Click="Calculer" />
+        <Label Content="Valeur :" />
+        <TextBox x:Name="val" Margin="10" TextWrapping="Wrap" Width="40" Height="30" FontStyle="Italic" IsReadOnly="True" IsTabStop="False" />
+    </StackPanel>
+</Window>
+    
+<!-- author : Evain Natan -->

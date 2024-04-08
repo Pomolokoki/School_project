@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChercheMots"
         FontSize="20"
         mc:Ignorable="d"
-        Title="Cherchons des mots..." Height="450" Width="800">
+        Title="Cherchons des mots..." Height="460" Width="800">
     <StackPanel Margin="10">
         
         <Button Content="Anagrammes" Margin="10" Click="Anagrammes"  />
@@ -19,6 +19,10 @@
 
         <!--    author : Callerand Thibault -->
         <Button Content="Cherche à partir de lettre" Margin="10" Click="RechercheLettres" />
+
+        <!--    author : Evain Natan -->
+        <Button Content="Valeur Scrabble" Margin="10" Click="Valeur" />
+        <Button Content="Valeur du mot" Margin="10" Click="ValeurMot" />
 
     </StackPanel>
 </Window>

@@ -86,5 +86,21 @@ namespace ChercheMots
             Ihm.MotsNWindow win = new Ihm.MotsNWindow(dico);
             win.Show();
         }
+
+        /// <author>Evain Natan</author>
+        private void Valeur(object sender, RoutedEventArgs e)
+        {
+            // ouvre la fenêtre définitions
+            Ihm.ValeurScrabbleWindow win = new Ihm.ValeurScrabbleWindow(dico);
+            win.Show();
+        }
+
+        /// <author>Evain Natan</author>
+        private void ValeurMot(object sender, RoutedEventArgs e)
+        {
+            // ouvre la fenêtre définitions
+            Ihm.ValeurMotWindow win = new Ihm.ValeurMotWindow(dico);
+            win.Show();
+        }
     }
 }

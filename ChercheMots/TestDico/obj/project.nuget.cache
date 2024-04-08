@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K92YikpeGofFpVk4sogA5NuY46CMm547XoU7UF9n475XKNuDphbIcSKcUzFabzav4Plsp6vniiQ/HDnrWakRvw==",
+  "dgSpecHash": "9+oq8Ul5/ESRQzgETc9kc2Y4NoR6lsmx4TkkhlS7fO08al6IIJsGQXVX5K8ychci7II0+i5GS0ynACzlr1kFSQ==",
   "success": true,
-  "projectFilePath": "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\Etudiants\\INFO-NEV\\BUT-INFO-NEV-1\\th133840\\Cours\\QUAL\\TP6\\meh\\TestDico\\TestDico.csproj",
+  "projectFilePath": "\\\\iut21.u-bourgogne.fr\\racine\\dijon\\enseignement\\Etudiants\\INFO-NEV\\BUT-INFO-NEV-1\\th133840\\Cours\\QUAL\\TP6\\ChercheMots\\TestDico\\TestDico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\th133840\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\th133840\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
